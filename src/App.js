@@ -12,7 +12,7 @@ function App() {
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <a className="App-link">
-          Hello
+          OMG OMG OMG
           {sendMessage()}
         </a>
       </header>
