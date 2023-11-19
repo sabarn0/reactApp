@@ -43,3 +43,14 @@
 .time{
   /* color: white; */
 }
+
+.vdContainer{
+  height: 50vh;
+  background-color: #61dafb;
+}
+
+.video{
+  width: 80%;
+  height: 50vh;
+  margin: 10px auto;
+}
