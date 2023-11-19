@@ -1,19 +1,17 @@
 // import logo from './logo.svg';
-import logo from './pic.png'
 import './App.css';
-
-function sendMessage(){
-  // alert("How you doin'?");
-}
+import LiveClockUpdate from './liveTime';
 
 function App() {
+  let now = new Date();
+  console.log(now)
   return (
     <div className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        
         <a className="App-link">
-          OMG OMG OMG
-          {sendMessage()}
+        <LiveClockUpdate></LiveClockUpdate>
         </a>
       </header>
     </div>
