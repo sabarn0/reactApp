@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./App.css";
 
 class LiveClockUpdate extends Component {
   constructor(props) {
@@ -23,9 +24,7 @@ class LiveClockUpdate extends Component {
 
   render() {
     return (
-      <div>
-        <h2>{this.state.date.toLocaleTimeString().toUpperCase()}.</h2>
-      </div>
+        <h2 className="time">{this.state.date.toLocaleTimeString().toUpperCase()}</h2>
     );
   }
 }
