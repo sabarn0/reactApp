@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import logo from './pic.jpg'
+import logo from './pic.png'
 import './App.css';
 
 function sendMessage(){
@@ -10,9 +10,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <a className="App-link">
-          Hello Tiksha
+          Hello
           {sendMessage()}
         </a>
       </header>

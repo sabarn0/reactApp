@@ -4,8 +4,9 @@
 
 .App-logo {
   height: 40vmin;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   pointer-events: none;
+  background-color: #61dafb;
 }
 
 @media (prefers-reduced-motion: no-preference) {
