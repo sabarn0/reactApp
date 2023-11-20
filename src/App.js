@@ -1,27 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-import LiveClockUpdate from './liveTime';
-import vd1 from './vid1.mp4';
-import vd2 from './vid2.mp4';
+import React, {UseState, UseEffect} from 'react';
+import MessageComponent from './message.js';
+
 
 function App() {
-  let now = new Date();
-  console.log(now)
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         
         <a className="App-link">
         <LiveClockUpdate></LiveClockUpdate>
+        </a> */}
+        
+        <a className='App-link'>
+          
+      <MessageComponent />
         </a>
       </header>
-      <div className='vdContainer'>        
-      <iframe className='video' src={vd1} loop></iframe>
-      </div>
-      <div className='vdContainer'>        
-      <iframe className='video' src={vd2} loop></iframe>
-      </div>
     </div>
   );
 }
