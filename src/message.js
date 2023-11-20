@@ -1,36 +1,39 @@
 import React, { useState, useEffect } from 'react';
-import './App.css'
 
 const MessageComponent = () => {
-    const messages = [
-        'Hi Tiksha',
-        'Sorry i was busy the past few days',
-        'I was caught up with work',
-        'Please dont be mad',
-        '🫰'
-    ];
+  const messages = [
+    'Hi Tiksha',
+    'Sorry for being unavailable the past few days',
+    'I was caught up with work',
+    'Hope you\'re not mad about it',
+    '🫰',
+    'Pani Puri in the evening?'
+  ];
 
   const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentMessageIndex((prevIndex) => (prevIndex + 1) % messages.length);
-    }, 2000);
+      setCurrentMessageIndex((prevIndex) => {
+        const nextIndex = prevIndex + 1;
+
+        // Check if it's the last message and clear the interval
+        if (nextIndex === messages.length-1) {
+          clearInterval(intervalId);
+        }
+
+        return nextIndex % messages.length;
+      });
+    }, 3000);
 
     return () => clearInterval(intervalId);
-  }, [messages.length]); // Include messages.length in the dependency array
+  }, [messages.length]);
 
   return (
-    <div>
+    <div className='msg'>
       <h1>{messages[currentMessageIndex]}</h1>
-      {/* {currentMessageIndex === messages.length - 1 && (
-        <span className='emoji'>🫰</span>
-      )} */}
     </div>
   );
 };
 
 export default MessageComponent;
-
-
-

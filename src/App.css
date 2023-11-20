@@ -16,7 +16,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
+  background-image: url(./pic.jpg);
+  background-position: center;
+  background-size: contain ;
   /* background-color: white; */
   min-height: 100vh;
   display: flex;
@@ -56,6 +59,8 @@
   margin: 10px auto;
 }
 
-.emoji{
-  font-size: 64;
+.msg{
+background-color: rgba(0,0,0,0.7);
+padding: 20px;
+border-radius: 20px;
 }
