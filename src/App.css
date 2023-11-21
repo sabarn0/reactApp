@@ -9,11 +9,11 @@
   ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {a
     animation: App-logo-spin infinite 60s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -28,6 +28,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border: #61dafb;
 }
 
 .App-link {
@@ -64,3 +65,30 @@ background-color: rgba(0,0,0,0.7);
 padding: 20px;
 border-radius: 20px;
 }
+
+.gif-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
+  background-color: #61dafb;
+}
+
+.spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set to 100% of the viewport height */
+  width: 100vw;
+  background-color: #282c34;
+
+}
+
+.spinner {
+  text-align: center;
+}
+/* 
+.img{
+  width: 100%;
+} */
