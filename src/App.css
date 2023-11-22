@@ -1,94 +1,63 @@
-.App {
-  text-align: center;
+.main-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+    margin: 0px auto;
+    height: 100vh;
+    background-color: pink;
 }
 
-.App-logo {
-  height: 40vmin;
-  /* border-radius: 50%; */
-  pointer-events: none;
-  ;
+.image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {a
-    animation: App-logo-spin infinite 60s linear;
-  }
-} */
-
-.App-header {
-  background-color: #282c34;
-  /* background-image: url(./pic.jpg); */
-  background-position: center;
-  background-size: contain ;
-  /* background-color: white; */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  border: #61dafb;
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.input-container{
+    display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input_ao_ta{
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    text-align: center;
 }
 
-.time{
-  /* color: white; */
+.input_ao_btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
 }
 
-/* .vdContainer{
-  height: 50vh;
-  background-color: #61dafb;
-} */
-
-.video{
-  /* width: 80%; */
-  height: 50vh;
-  width: 40vw;
-  margin: 10px auto;
+.message-container{
+    padding: 10px;
 }
 
-.msg{
-background-color: rgba(0,0,0,0.7);
-padding: 20px;
-border-radius: 20px;
+
+.help_btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: brown;
+    color: white;
 }
 
-.gif-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50vh;
-  width: 100%;
-  background-color: #61dafb;
-}
-
-.spinner-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* Set to 100% of the viewport height */
-  width: 100vw;
-  background-color: #282c34;
-
-}
-
-.spinner {
-  text-align: center;
-}
-/* 
 .img{
-  width: 100%;
-} */
+    width: 330px;
+    margin: 0 auto;
+}
