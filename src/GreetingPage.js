@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 const Greeting = () => {
-    alert("Allah u akbar")
-
     let [message, setMessage] = useState('');
 
     useEffect(()=>{       
