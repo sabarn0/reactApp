@@ -11,8 +11,9 @@ const App = () => {
   const [userName, setUserName] = useState('');
   const [inputName, setInputName] = useState('');
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
+  
   useEffect(() => {
+
     let storedName = localStorage.getItem('userName');
     if (storedName) {
       setUserName(storedName);
