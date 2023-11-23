@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactApp/static/css/main.61687285.css",
-    "main.js": "/reactApp/static/js/main.0c0d09ae.js",
+    "main.css": "/reactApp/static/css/main.468034a9.css",
+    "main.js": "/reactApp/static/js/main.ca369804.js",
     "static/js/787.8e8ffda9.chunk.js": "/reactApp/static/js/787.8e8ffda9.chunk.js",
     "static/media/pic3.jpg": "/reactApp/static/media/pic3.d99b342de71188d751f5.jpg",
     "static/media/pic.jpg": "/reactApp/static/media/pic.f1675bee4de97e77c32b.jpg",
@@ -12,12 +12,12 @@
     "static/media/whatsapp.png": "/reactApp/static/media/whatsapp.43a4918296128915afbb.png",
     "static/media/instagram.png": "/reactApp/static/media/instagram.79535458a8a6d88f81d4.png",
     "index.html": "/reactApp/index.html",
-    "main.61687285.css.map": "/reactApp/static/css/main.61687285.css.map",
-    "main.0c0d09ae.js.map": "/reactApp/static/js/main.0c0d09ae.js.map",
+    "main.468034a9.css.map": "/reactApp/static/css/main.468034a9.css.map",
+    "main.ca369804.js.map": "/reactApp/static/js/main.ca369804.js.map",
     "787.8e8ffda9.chunk.js.map": "/reactApp/static/js/787.8e8ffda9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61687285.css",
-    "static/js/main.0c0d09ae.js"
+    "static/css/main.468034a9.css",
+    "static/js/main.ca369804.js"
   ]
 }
